@@ -48,11 +48,12 @@ class IntervalList():
     def filterLe(self, other):
         pass
 
-    def filterEq(self, other):
+    def filterEq(self, other, discriminant):
         res = IntervalList()
         for i in range(len(other.keys)):
-            if(other.values == )
-            res.insert()
+            if(other.values[i] >= discriminant):
+                res.insert(other.keys[i], self[i])
+        return res
 
     def filterNeq(self, other):
         pass
