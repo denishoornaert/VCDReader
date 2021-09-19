@@ -1,9 +1,9 @@
 import re
 
-from src.vcd import *
-from src.module import *
-from src.interval_list import *
-from src.wire import *
+from src.vcd import VCD
+from src.module import Module
+from src.interval_list import IntervalList
+from src.wire import Wire
 
 class VCDFactory():
     """
